@@ -14,7 +14,7 @@ mongoose
   .connect(
     'mongodb+srv://sushant:12345@cluster1.s7g4gii.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1',
     {
-      dbName: dms_test,
+      dbName: 'test',
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true,
