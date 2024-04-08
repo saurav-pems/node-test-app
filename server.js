@@ -17,14 +17,12 @@ mongoose
       dbName: 'test',
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      useCreateIndex: true,
-      useFindAndModify: false,
     }
   )
   .then(() => {
     console.log('💾 connected...');
     app.listen(8000, () =>
-      console.log(`🚀Going live @ http://localhost:${PORT}`)
+      console.log(`🚀Going live @ http://localhost:${8000}`)
     );
   })
   .catch((err) => console.log(err.message));
