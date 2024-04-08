@@ -22,7 +22,7 @@ mongoose
   )
   .then(() => {
     console.log('💾 connected...');
-    app.listen(PORT, () =>
+    app.listen(8000, () =>
       console.log(`🚀Going live @ http://localhost:${PORT}`)
     );
   })
